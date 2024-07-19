@@ -19,7 +19,7 @@ const Features = () => {
             <Card image={Bussiness} text="Bussiness portfolio" link="https://silver9876.github.io/task3" title="Bussiness portfolio" />
             <Card image={Fest} text={'Fest website'} link="https://silver9876.github.io/matrix-website/" title={'Fest Website'}/>
             <Card image={Search} text={'Image Search App'} link="https://silver9876.github.io/image_search_app/" title={'Image Search App'}/>
-            <Card image={Expense} text={'Image Search App'} link="https://shrey141102.github.io/Javascript-projects/expense%20tracker/index.html" title={'Expense Tracker'}/>
+            <Card image={Expense} text={'Open Source Project'} link="https://shrey141102.github.io/Javascript-projects/expense%20tracker/index.html" title={'Expense Tracker'}/>
 
     </div>  
       </div>
