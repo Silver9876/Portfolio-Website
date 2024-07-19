@@ -12,8 +12,8 @@ const ContactRight = () => {
       <div className="row">
                     <div className="lg:col-span-5">
                         <div className="contact-about-area ">
-                            <div className="thumbnail">
-                                <img src={Slay} />
+                            <div className="w-full hover:scale-105 ease-in-out delay-100 transition-all duration-300 flex justify-center items-start ">
+                                <img src={Slay} className='w-[95%] '/>
                             </div>
                             <div className="title-area">
                                 <h4 className="title">Avinash</h4>
