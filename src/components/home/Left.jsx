@@ -14,7 +14,7 @@ const Left = () => {
     <div className='w-[100%] lg:w-2/3 lg:mx-32 my-32'>
       <h1 className='subtitle '>WELCOME TO MY WORLD</h1>
       <br />
-      <h1 className='title text-6xl lg:text-8xl font-bold'>
+      <h1 className='title text-6xl lg:text-9xl font-bold'>
         Hi, I'm <span className='text-[#1DE5A0]'>Avinash</span>,
       </h1>
       <br />
