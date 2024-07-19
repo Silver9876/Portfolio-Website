@@ -7,7 +7,7 @@ const NavBar = () => {
         
   return (
     <div className=''>
-        <header className="lg:flex justify-around items-center shadow-lg shadow-zinc-900 bg-[#212428] h-auto px-16 py-1 w-full" style={{position:'fixed', zIndex:'999999'}}>
+        <header className="lg:flex justify-between items-center shadow-lg shadow-zinc-900 bg-[#212428] h-auto px-8 lg:px-16 py-1 w-full" style={{position:'fixed', zIndex:'999999'}}>
             <div className='flex justify-between items-center'>
             <div className="flex items-center text-sm">
                 <img src={avatar} className='w-16 lg:w-20 mr-4 transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 ... rounded-[20%] ' onClick={()=>{
