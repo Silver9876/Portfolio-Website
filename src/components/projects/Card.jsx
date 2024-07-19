@@ -1,20 +1,20 @@
 import React from 'react'
 import './Cards.css'
 
+
 const Cards = ({image, text, link, title}) => {
   return (
-    <div className='outer'>
-      {/* min-w-[350px] sm:min-w-[400px] sm:max-w-[500px] sm:max-h-[500px] md:min-w-[500px] md:max-w-[700px] min-h-[400px] lg:max-w-[900px] */}
-      <div className="container w-[90%] lg:w-[100%]">
-    <div className="card">
-      <div className="front bg-transparent flex justify-center items-center h-auto p-10">
-        <img src={image}  alt="" className='lg:w-[100%]  rounded-2xl '/>
-      </div>
-      <div className="back bg-transparent h-auto p-10">
-        <h1 className='text-white text-8xl text-center  '>{title}</h1>
-        <p>{text}</p>
-        <button type='submit' className='w-1/2 h-20 hover:bg-green-700 text-4xl font-bold hover:text-white text-center '><a href={link} className='px-36  hover:text-white text-center'>Website</a></button>
-      </div>
+    <div className='outer' >
+      <div className="container1 w-[90%] lg:w-[100%] h-[400px] sm:h-[500px] md:h-[400px] " >
+      <div className="card h-[100%] flex justify-center">
+          <div className="front bg-transparent flex justify-center items-center p-6 w-full h-full" >
+            <img src={image}  alt="" className='w-[100%] h-[100%]  rounded-2xl'/>
+          </div>
+          <div className="back bg-transparent h-[100%] w-full" >
+            <h1 className='text-white text-7xl lg:text-8xl text-center'>{title}</h1>
+            <p>{text}</p>
+            <button type='submit' className='w-1/2 p-8 hover:bg-green-700 text-4xl font-bold hover:text-white text-center '><a href={link} className='hover:text-white text-center'>Website</a></button>
+          </div>
     </div>
   </div>
     </div>
