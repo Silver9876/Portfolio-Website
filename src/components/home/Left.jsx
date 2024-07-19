@@ -11,7 +11,7 @@ const Left = () => {
         deleteSpeed: 30,
       });
   return (
-    <div className='w-[100%] lg:w-2/3 lg:mx-24 my-32'>
+    <div className='w-[100%] lg:w-2/3 lg:mx-16 my-32'>
       <h1 className='subtitle text-2xl'>WELCOME TO MY WORLD</h1>
       <br />
       <h1 className='title text-7xl lg:text-9xl font-bold'>
