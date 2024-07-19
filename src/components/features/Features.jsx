@@ -18,7 +18,7 @@ const Features = () => {
         <h1 className='text-6xl lg:text-8xl p-12 lg:pl-32 font-extrabold'>What I Do:</h1>
         <br />
             <div className="flex justify-center">
-            <div className=' m-6 lg:m-20 grid justify-center lg:grid-cols-2 xl:grid-cols-3 gap-y-20'>
+            <div className='w-[90%] lg:m-20 grid justify-center lg:grid-cols-2 xl:grid-cols-3 gap-y-20'>
 
         <Card 
         
