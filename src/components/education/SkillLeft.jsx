@@ -6,7 +6,7 @@ const SkillLeft = () => {
   return (
     <div className="lg:flex w-full justify-center">
         <div className="left lg:w-[45%]">
-        <div class="container2 w-full flex flex-col gap-40 my-20">
+        <div class="container2 w-full flex flex-col my-20">
         <div class="skill-box ">
             <span class="title">HTML</span>
             <div class="skill-bar">
@@ -35,7 +35,7 @@ const SkillLeft = () => {
             <span class="title">React</span>
             <div class="skill-bar">
                 <span class="skill-per">
-                    <span class="tooltip">60%</span>
+                    <span class="tooltip">90%</span>
                 </span>
             </div>
         </div>
@@ -43,7 +43,7 @@ const SkillLeft = () => {
         </div>
 
         <div className="right lg:w-[45%]">
-        <div class="container2 w-full flex flex-col gap-40 my-20">
+        <div class="container2 w-full flex flex-col lg:my-20">
         <div class="skill-box ">
             <span class="title">Python</span>
             <div class="skill-bar">
