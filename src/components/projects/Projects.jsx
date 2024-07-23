@@ -12,7 +12,7 @@ import puzzle from '../../assets/images/codepuzzle.png'
 
 const Features = () => {
   return (
-    <div className='w-[100%] h-auto p-40 ' id='PROJECTS'>
+    <div className='w-[100%] h-auto p-10 ' id='PROJECTS'>
         <h1 className='text-8xl pt-20 lg:pl-32 font-extrabold text-center lg:text-start'>Projects :</h1>
         <br />
         <br />
