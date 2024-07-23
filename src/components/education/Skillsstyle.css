@@ -16,7 +16,7 @@
 }
 .skill-box .title{
     display: block;
-    font-size: 30px;
+    /* font-size: 30px; */
     /* font-weight: 600; */
     color: white;
 }
@@ -62,7 +62,7 @@
     position: absolute;
     right: -14px;
     top: -50px;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: 500;
     color: #fff;
     padding: 2px 6px;

@@ -8,34 +8,34 @@ const SkillLeft = () => {
         <div className="left lg:w-[45%]">
         <div class="container2 w-full flex flex-col my-20">
         <div class="skill-box ">
-            <span class="title">HTML</span>
+            <span class="title text-3xl lg:text-5xl">HTML</span>
             <div class="skill-bar">
                 <span class="skill-per html">
-                    <span class="tooltip">90%</span>
+                    <span class="tooltip text-2xl lg:text-3xl">90%</span>
                 </span>
             </div>
         </div>
         <div class="skill-box">
-            <span class="title">CSS</span>
+            <span class="title text-3xl lg:text-5xl">CSS</span>
             <div class="skill-bar">
                 <span class="skill-per css ">
-                    <span class="tooltip">70%</span>
+                    <span class="tooltip text-2xl lg:text-3xl">70%</span>
                 </span>
             </div>
         </div>
         <div class="skill-box">
-            <span class="title">JavaScript</span>
+            <span class="title text-3xl lg:text-5xl">JavaScript</span>
             <div class="skill-bar">
                 <span class="skill-per javascript">
-                    <span class="tooltip">60%</span>
+                    <span class="tooltip text-2xl lg:text-3xl">60%</span>
                 </span>
             </div>
         </div>
         <div class="skill-box">
-            <span class="title">React</span>
+            <span class="title text-3xl lg:text-5xl">React</span>
             <div class="skill-bar">
                 <span class="skill-per">
-                    <span class="tooltip">90%</span>
+                    <span class="tooltip text-2xl lg:text-3xl">90%</span>
                 </span>
             </div>
         </div>
@@ -45,26 +45,26 @@ const SkillLeft = () => {
         <div className="right lg:w-[45%]">
         <div class="container2 w-full flex flex-col lg:my-20">
         <div class="skill-box ">
-            <span class="title">Python</span>
+            <span class="title text-3xl lg:text-5xl">Python</span>
             <div class="skill-bar">
                 <span class="skill-per html">
-                    <span class="tooltip">90%</span>
+                    <span class="tooltip text-2xl lg:text-3xl">90%</span>
                 </span>
             </div>
         </div>
         <div class="skill-box">
-            <span class="title">Django</span>
+            <span class="title text-3xl lg:text-5xl">Django</span>
             <div class="skill-bar">
                 <span class="skill-per css ">
-                    <span class="tooltip">70%</span>
+                    <span class="tooltip text-2xl lg:text-3xl">70%</span>
                 </span>
             </div>
         </div>
         <div class="skill-box">
-            <span class="title">Tailwind css</span>
+            <span class="title text-3xl lg:text-5xl">Tailwind css</span>
             <div class="skill-bar">
                 <span class="skill-per javascript">
-                    <span class="tooltip">60%</span>
+                    <span class="tooltip text-2xl lg:text-3xl">60%</span>
                 </span>
             </div>
         </div>
