@@ -14,9 +14,8 @@ import { MdOutlineDeveloperMode } from "react-icons/md";
 
 const Features = () => {
   return (
-    <div className='w-[100%] h-auto' id='FEATURES' >
-        <h1 className='text-6xl lg:text-8xl p-12 lg:pl-32 font-extrabold'>What I Do:</h1>
-        <br />
+    <div className='w-[100%] h-auto mt-32' id='FEATURES' >
+        <h1 className='text-6xl lg:text-8xl lg:pl-32 font-extrabold'>What I Do:</h1>
             <div className="flex justify-center">
             <div className='w-[90%] lg:m-20 grid justify-center lg:grid-cols-2 xl:grid-cols-3 gap-y-20'>
 
