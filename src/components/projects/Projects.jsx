@@ -4,13 +4,15 @@ import Bussiness from '../../assets/images/Bussiness.jpg'
 import Fest from '../../assets/images/fest.jpg'
 import Search from '../../assets/images/Search.jpg'
 import Expense from '../../assets/images/Expense.avif'
+import puzzle from '../../assets/images/codepuzzle.png'
+
 
 
 
 
 const Features = () => {
   return (
-    <div className='w-[100%] h-auto ' id='PROJECTS'>
+    <div className='w-[100%] h-auto p-40 ' id='PROJECTS'>
         <h1 className='text-8xl pt-20 lg:pl-32 font-extrabold text-center lg:text-start'>Projects :</h1>
         <br />
         <br />
@@ -20,6 +22,8 @@ const Features = () => {
             <Card image={Fest} text={'Fest Project'} link="https://silver9876.github.io/matrix-website/" title={'Fest Website'}/>
             <Card image={Search} text={'Personal Project'} link="https://silver9876.github.io/image_search_app/" title={'Image Search App'}/>
             <Card image={Expense} text={'Open Source Project'} link="https://shrey141102.github.io/Javascript-projects/expense%20tracker/index.html" title={'Expense Tracker'}/>
+            <Card image={puzzle} text={'Code Puzzle Game'} link="https://silver9876.github.io/code-puzzle-game/" title={'Code Puzzle Game'}/>
+            
 
     </div>  
       </div>
