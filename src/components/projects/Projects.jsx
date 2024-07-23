@@ -15,7 +15,7 @@ const Features = () => {
         <br />
         <br />
             <div className="flex justify-center h-auto">
-            <div className='w-[95%] grid justify-around grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 lg:gap-40'>
+            <div className='w-[95%] grid justify-around grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 lg:gap-40'>
             <Card image={Bussiness} text="Internship Project" link="https://silver9876.github.io/task3" title="Bussiness portfolio" />
             <Card image={Fest} text={'Fest Project'} link="https://silver9876.github.io/matrix-website/" title={'Fest Website'}/>
             <Card image={Search} text={'Personal Project'} link="https://silver9876.github.io/image_search_app/" title={'Image Search App'}/>

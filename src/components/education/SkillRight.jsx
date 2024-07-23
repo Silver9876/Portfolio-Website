@@ -2,9 +2,10 @@ import React from 'react'
 
 const SkillRight = () => {
   return (
-    <div className='w-1/3 h-screen'>
-        <div className="flex gap-8">
-        <div className="relative w-96 h-96 ">
+    <div className='w-full xl:w-[35%] h-auto flex justify-center'>
+      <div className="w-[90%]">
+      <div className="xl:flex gap-8 w-full">
+        <div className="relative w-96 aspect-auto ">
   <svg className="w-full h-full" viewBox="0 0 100 100">
     {/* <!-- Background circle --> */}
     <circle
@@ -41,7 +42,7 @@ const SkillRight = () => {
 
 {/* ------------------------------------------------------------------------ */}
 
-<div className="flex gap-8">
+<div className="xl:flex gap-8">
         <div className="relative w-96 h-96 ">
   <svg className="w-full h-full" viewBox="0 0 100 100">
     {/* <!-- Background circle --> */}
@@ -78,7 +79,7 @@ const SkillRight = () => {
 
 {/* ----------------------------------------------------------------------------------------- */}
 
-<div className="flex gap-8">
+<div className="xl:flex gap-8">
         <div className="relative w-96 h-96 ">
   <svg className="w-full h-full" viewBox="0 0 100 100">
     {/* <!-- Background circle --> */}
@@ -113,6 +114,7 @@ const SkillRight = () => {
 </div>
         </div>
       
+      </div>
     </div>
   )
 }

@@ -6,10 +6,11 @@ import SkillRight from "./SkillRight";
 
 const Skill = () => {
   return (
-    <div className="flex w-[90%] mt-28 h-screen">
+<div className="flex justify-center">
+<div className="xl:flex w-[90%] mt-28 h-auto justify-evenly gap-10">
             <SkillLeft />
-            <SkillRight />
     </div>
+</div>
   )
 }
 

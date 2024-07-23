@@ -1,20 +1,76 @@
 import React from 'react'
 import { Progress } from "@material-tailwind/react";
+import './Skillsstyle.css'
 
 const SkillLeft = () => {
   return (
-    <div className=' w-full'>
-    <div className="flex w-full flex-col gap-4">
-      <Progress value={50} color="blue" />
-      <Progress value={50} color="red" />
-      <Progress value={50} color="green" />
-      <Progress value={50} color="amber" />
-      <Progress value={50} color="teal" />
-      <Progress value={50} color="indigo" />
-      <Progress value={50} color="purple" />
-      <Progress value={50} color="pink" />
+    <div className="lg:flex w-full justify-center">
+        <div className="left lg:w-[45%]">
+        <div class="container2 w-full flex flex-col gap-40 my-20">
+        <div class="skill-box ">
+            <span class="title">HTML</span>
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">CSS</span>
+            <div class="skill-bar">
+                <span class="skill-per css ">
+                    <span class="tooltip">70%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">JavaScript</span>
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">60%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">React</span>
+            <div class="skill-bar">
+                <span class="skill-per">
+                    <span class="tooltip">60%</span>
+                </span>
+            </div>
+        </div>
     </div>
-</div>
+        </div>
+
+        <div className="right lg:w-[45%]">
+        <div class="container2 w-full flex flex-col gap-40 my-20">
+        <div class="skill-box ">
+            <span class="title">Python</span>
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">Django</span>
+            <div class="skill-bar">
+                <span class="skill-per css ">
+                    <span class="tooltip">70%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">Tailwind css</span>
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">60%</span>
+                </span>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
         )
 }
 
