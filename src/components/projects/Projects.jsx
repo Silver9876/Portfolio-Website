@@ -10,7 +10,7 @@ import Expense from '../../assets/images/Expense.avif'
 
 const Features = () => {
   return (
-    <div className='w-[100%] h-auto mb-20' id='PROJECTS'>
+    <div className='w-[100%] h-auto ' id='PROJECTS'>
         <h1 className='text-8xl py-12 lg:pl-32 font-extrabold text-center lg:text-start'>Projects :</h1>
         <br />
         <br />

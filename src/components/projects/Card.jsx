@@ -4,7 +4,7 @@ import './Cards.css'
 
 const Cards = ({image, text, link, title}) => {
   return (
-    <div className='outer my-20 sm:my-0' >
+    <div className='outer my-6 sm:my-0' >
       <div className="container1 w-full aspect-square " >
       <div className="card h-[100%] flex justify-center">
           <div className="front bg-transparent flex justify-center items-center p-6 w-full h-full" >
