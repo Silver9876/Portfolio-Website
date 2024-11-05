@@ -6,7 +6,7 @@ const Aboutme = () => {
         <h1 className='text-6xl lg:text-8xl font-bold mx-12 lg:mx-32 my-12 lg:my-8 '>About Me :</h1>
         <div className="flex justify-center">
         <div className='w-[90%]'>
-      <p className='shadow-xl shadow-black py-8 px-4  lg:py-14 lg:px-10 rounded-3xl text-2xl lg:text-3xl' style={{border:'2px solid white'}}> Aspiring Software Engineer <br />
+      <p className='shadow-xl shadow-black py-8 px-4  lg:py-14 lg:px-10 rounded-3xl text-2xl lg:text-3xl' style={{border:'2px solid white'}}> Aspiring Software Engineer: <br />
 
 I'm a passionate software engineer with a keen interest in crafting innovative web applications and delving into the fascinating world of machine learning. My expertise lies in leveraging technologies like React and Django to build dynamic and user-friendly web interfaces.
 <br />
